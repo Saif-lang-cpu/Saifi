@@ -1,0 +1,49 @@
+Here is the code with the boilerplate:
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Form</title>
+</head>
+<body>
+<h1>Survey Form</h1>
+<p>Let us know how we can improve FreeCodeCamp</p>
+
+```<label for="name">*Name:</label>
+<input type="text" id="name" required placeholder="Enter your name">
+
+<label for="email">*Email:</label>
+<input type="email" id="email" required placeholder="Enter your Email">
+
+<label for="age">*Age:</label>
+<input type="number" id="age" required placeholder="Age">
+
+<p>Which option best describes your current role?</p>
+<select name="profession" required>
+  <option value="">Select an option</option>
+  <option value="student">Student</option>
+  <option value="worker">Worker</option>
+  <option value="lawyer">Lawyer</option>
+  <option value="other">Other</option>
+</select>
+
+<p>How likely is that you would recommend FreeCodeCamp to a friend?</p>
+<input type="radio" id="definitely" name="recommend" required value="definitely">
+<label for="definitely">Definitely</label><br>
+<input type="radio" id="maybe" name="recommend" required value="maybe">
+<label for="maybe">Maybe</label><br>
+<input type="radio" id="not-sure" name="recommend" required value="not-sure">
+<label for="not-sure">Not sure</label>
+
+<p>Things that should be improved in the future (check all that apply):</p>
+<input type="checkbox" id="front-end" name="improvement" value="front-end">
+<label for="front-end">Front-end projects</label><br>
+<input type="checkbox" id="back-end" name="improvement" value="back-end">
+<label for="back-end">Back-end projects</label><br>
+<input type="checkbox" id="data-visualization" name="improvement" value="data-visualization">
+<label for="data-visualization">Data visualization</label>
+
+<button type="submit">Submit</button>
+```
+</body>
+</html>
